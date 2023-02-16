@@ -1,0 +1,62 @@
+ol {
+    background-color: yellow;
+}
+
+li.verde {
+    color: green;
+}
+
+li.impar {
+    text-transform: uppercase;
+}
+
+h1,h2,h3 {
+color: red;
+}
+
+h1 {
+    font-size: 40px;
+    border: black solid 1px;
+}
+
+li {
+    font-size: 20px;
+}
+
+ol li {
+    font-weight: bold;
+}
+
+.azul {
+    color: blue;
+}
+
+.rosa {
+    background-color: palevioletred
+}
+
+.laranja:hover {
+    color: orangered;
+    font-weight: bolder;
+
+}
+
+.verde:hover {
+    color: rgb(9, 240, 28);    
+    font-weight: bolder;
+}
+
+.preta:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.amarela:hover {
+    color:yellowgreen;
+    font-weight: bolder;
+}
+
+.verde1:hover {
+    color: green;
+    font-weight: bolder;
+}
