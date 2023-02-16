@@ -1,0 +1,11 @@
+div:hover {
+    border: solid rgb(8, 24, 114) 5px;
+}
+
+div:nth-child(2){
+    background-color:green;
+}
+
+#odd:nth-child(1) {
+    background-color: red;
+}
