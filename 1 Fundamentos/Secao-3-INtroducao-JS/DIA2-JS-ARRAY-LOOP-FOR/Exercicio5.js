@@ -19,7 +19,7 @@ console.log(changedWord);
 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 let receiveBig = ''
-let receiveSmall = ''
+let receiveSmall = array[0]
 
 for (let indexBig = 0; indexBig < array.length; indexBig += 1) {
     if (indexBig > receiveBig) {
@@ -31,8 +31,8 @@ console.log(receiveBig);
 
 
 for (let indexSmall = 0; indexSmall < array.length; indexSmall += 1) {
-    if (receiveSmall < indexSmall) {
-        receiveSmall = array[indexSmall]
+    if (array[indexSmall].length < receiveSmall.length) { 
+        receiveSmall = array[indexSmall];
 }
 }
 console.log(receiveSmall);
