@@ -22,4 +22,11 @@ addcoisas(student, keyzada, fullName);
 
 addcoisas(student, key, email,)
 student.gitHub = 'Natandso'
+addcoisas(student, 'CoisasQueEuGosto', 'Lasanaha');
+
 console.log(student);
+
+
+
+
+
