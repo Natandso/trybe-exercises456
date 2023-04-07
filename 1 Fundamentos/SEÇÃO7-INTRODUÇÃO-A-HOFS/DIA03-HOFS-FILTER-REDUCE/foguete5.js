@@ -7,17 +7,15 @@ const expectedResult = [
  { name: 'Maria Clara', average: 8.8 },
 ];
 const studentAverage = () => {
-    const pega = students.map((item) => item)
-    const pega2 = (acc, curr) => acc + curr;
-    const total = grades.reduce(pega2)
-    return total
-    
-    return {
-        name: pega, 
-        average: pega2
-        
-        
-    }
+    return students.map((item,index) => { 
+        return {
+            name: item, 
+            average: grades[index].reduce((acc, curr) => acc + curr) / grades[index].length
+
+        }
+
+    });
 }
 
-console.log(studentAverage());
+
+    console.log(studentAverage());
