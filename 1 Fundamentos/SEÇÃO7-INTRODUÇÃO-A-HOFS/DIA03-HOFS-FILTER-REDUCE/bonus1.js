@@ -5,5 +5,14 @@ const arrays = [
   ];
   
   const flatten = () => {
-    // retorne seu código aqui
+    return arrays.reduce((acc,curr,) => {
+return acc.concat(curr)
+    },[])
   }
+
+  console.log(flatten());
+
+
+
+
+  `${acc + curr.author.name}, `,''
